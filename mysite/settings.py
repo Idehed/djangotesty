@@ -25,7 +25,7 @@ if os.path.exists('env.py'):
 SECRET_KEY = os.environ.get('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['8000-idehed-djangotesty-ztjlte8a8fb.ws-eu110.gitpod.io','.herokuapp.com']
 
