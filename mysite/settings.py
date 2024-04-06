@@ -29,7 +29,8 @@ DEBUG = False
 
 ALLOWED_HOSTS = ['8000-idehed-djangotesty-ztjlte8a8fb.ws-eu110.gitpod.io','.herokuapp.com']
 
-CSRF_TRUSTED_ORIGINS = ['http://8000-idehed-djangotesty-ztjlte8a8fb.ws-eu110.gitpod.io', 'https://8000-idehed-djangotesty-ztjlte8a8fb.ws-eu110.gitpod.io']
+CSRF_TRUSTED_ORIGINS = ['http://8000-idehed-djangotesty-ztjlte8a8fb.ws-eu110.gitpod.io', 'https://8000-idehed-djangotesty-ztjlte8a8fb.ws-eu110.gitpod.io',
+'http://.herokuapp.com', 'https://.herokuapp.com']
 # Application definition
 
 INSTALLED_APPS = [
